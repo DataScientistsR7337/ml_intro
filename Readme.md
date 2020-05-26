@@ -26,7 +26,7 @@ Now, we want quite a few tools for our ML lab.
 Let's install them, by specifying them on the commandline. It's more packages than we will use in this session, but I rather give a complete list of the most useful ML tools than just a subset.
 ```
 conda install -c conda-forge jupyterlab  matplotlib numpy scikit-learn seaborn tensorboard 
-conda install -c conda-forge -c pytorch -c pytorch torchvision
+conda install -c conda-forge -c pytorch pytorch torchvision
 pip install hiddenlayer
 ```
 
