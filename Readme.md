@@ -27,7 +27,6 @@ Let's install them, by specifying them on the commandline. It's more packages th
 ```
 conda install -c conda-forge jupyterlab  matplotlib numpy scikit-learn seaborn tensorboard 
 conda install -c conda-forge -c pytorch pytorch torchvision
-pip install hiddenlayer
 ```
 
 The installation is about 200MB + 880MB. It takes time (several minutes) so please be patient.
@@ -35,7 +34,7 @@ The installation is about 200MB + 880MB. It takes time (several minutes) so plea
 If the conda installation of pyTorch is extremely slow, you may try pip using the selector at this site:
 <https://pytorch.org/>
 
-In my case, it was 
+In my case (I have a GPU), it was 
 ```
 pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
