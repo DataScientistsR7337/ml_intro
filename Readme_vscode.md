@@ -8,7 +8,7 @@ jimmy.engstrom@sony.com
 ## Prerequisites
 
 ### Server side installation of Python libraries
-Follow the instructions in `Readme_jupyter.md` and install conda, Python and PyTorch on your **remote machine**.
+Follow the instructions in [Readme_jupyter.md](./Readme_jupyter.md) and install conda, Python and PyTorch on your **remote machine**.
 
 ### Generating ssh key
 
