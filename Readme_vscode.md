@@ -28,7 +28,7 @@ vscode_intro.pub
 **vscode_intro** is your private, **vscode_intro.pub** is your public key.
 The **public key** is the one you will keep on the server.
 
-copy the public key to the server. Your first alterantive is using ssh-copy-id
+copy the public key to the server. Your first alternative is using ssh-copy-id
 
 ```
 ssh-copy-id -i ~/.ssh/vscode_intro user@host
