@@ -80,7 +80,7 @@ sudo snap install --classic code
 Start VS Code.
 You will be welcomed by this interface:
 
-![VS Code](../ml_intro/figures/vs_code.png)
+![VS Code](figures/vs_code.png)
 
 Click on the extension menu and install the extension called "Remote Development" by Microsoft.
 
@@ -107,13 +107,13 @@ After a while, you will see a notebook interface that is similar to Jupyter. How
 
 In the upper part of notebook, you see a small icon that says "Convert and save to a python script". 
 
-![Export to Python](../ml_intro/figures/export.png)
+![Export to Python](figures/export.png)
 
 This will create a new (unsaved) file that you should save as python script. Choose "File -> Save As" and use `mnistlab.py` as filename. Then open the mnistlab.py file (if you ever closed it).
 
 On the bottom of the window, you see a few items that are the following (a bit depending on if you have extra extensions installed or not)
 
-![Status bar](../ml_intro/figures/statusbar.png)
+![Status bar](figures/statusbar.png)
 
 Make sure that you use the right Conda environment by clicking on the status bar and choose `mnistlab` that you created at an earlier stage.
 
@@ -130,17 +130,17 @@ When it sees that, it adds menus in the code for running a single cell
 * Run Above
 * Debug Cell (if applicable)
 
-![Cell](../ml_intro/figures/cell.png)
+![Cell](figures/cell.png)
 
 Now, running each cell in order may be a bit tedious, so you may run all cells at once (in order) by clicking the right mouse button and choose "Run All Cells" in the notebook menu. If you choose menu options in the **blue** area, the code will be run in an **ordinary python terminal**, which means that it will exit as soon as all cells has complete running. This may, or may not be what you want, but usually when we run notebooks, we want to keep the results in memory for further use, such as plotting and diagnostic printing of variables.
 
 So, unless you really need the script to exit, choose from the Notebook menus.
 
-![Run All](../ml_intro/figures/runall.png)
+![Run All](figures/runall.png)
 
 When VsCode runs your code, the output will be in the right iPython window, but only the first line of each cell, and the output result of the cell will be seen. 
 
-![iPython buttons](../ml_intro/figures/ipython_buttons.png)
+![iPython buttons](figures/ipython_buttons.png)
 
 Hopefully, you code has now complete running. At the bottom of you code, add the following
 
@@ -180,7 +180,7 @@ ax.set_xlabel("Predicted digit")
 
 This will evaluate the model and plot a confusion matrix, which shows what digits are correctly classified, and which are less likely to be classified correctly. This is useful to see if an ML-model has some classes that it has trouble distinguishing between.
 
-![Confusion Matrix](./figures/confusion.png)
+![Confusion Matrix](figures/confusion.png)
 
 In our case, we see that the number “7” and “2”, together with “4” and “9” are the ones most often confused.
 
