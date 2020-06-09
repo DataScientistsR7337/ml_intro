@@ -1,6 +1,6 @@
 # A Very quick Introduction to ML using Jupyterlab and pyTorch
 
-## Prerequisities
+## Prerequisites
 
 Install miniconda (small) (or Anaconda: big and not really necessary):
 
